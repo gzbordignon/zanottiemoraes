@@ -1,6 +1,6 @@
 #main-footer {
 	background: black;
-	color: #38393a;
+	color: #fff;
 	padding: 2rem;
 
 	.footer-content {
@@ -8,12 +8,14 @@
 		align-items: flex-start;
 		justify-content: space-around;
 		margin-bottom: 3rem;
+		color: #fff;
 		h3 {
 			font-size: 1.3rem;
 			padding: 1rem 0;
 			text-transform: uppercase;
 		}
 		p {
+			color: #fff;
 			padding: 0.3rem 0;
 			font-size: 1.1rem;
 			font-family: 'Dosis';
@@ -27,6 +29,7 @@
 	}
 	.footer-footer {
 		p {
+			color: #fff;
 			font-size: 0.9rem;
 		}
 	}
