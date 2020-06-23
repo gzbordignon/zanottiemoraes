@@ -1,0 +1,50 @@
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+#banner {
+	&-home {
+		background: url('../images/law3.jpg') no-repeat center center / cover;
+		height: 70vh;
+		width: 100%;
+		color: #fff;
+		h2 {
+			font-size: 2rem;
+			text-transform: uppercase;
+		}
+		p {
+			font-size: 1.6rem;
+			color: #fff;
+		}
+	}
+	&-lawyers, &-areas {
+		
+		height: 60vh;
+		width: 100%;
+		color: #fff;
+		text-align: center;
+		h2 {
+			font-size: 2rem;
+			text-transform: uppercase;
+		}
+		p {
+			font-size: 1.3rem;
+		}
+	}
+	&-lawyers {
+		background: url('../images/law1.jpg') no-repeat center center / cover;
+	}
+	&-areas {
+		background: url('../images/law4.jpg') no-repeat top center / cover;
+	}
+}
+
+@media(max-width: 600px) {
+	.banner-content {
+		max-width: 400px;
+	}
+}

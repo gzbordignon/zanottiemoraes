@@ -1,0 +1,71 @@
+#lawyers-page {
+	max-width: 940px;
+	margin: 4rem auto;
+	.lawyer-box {
+		display: flex;
+		.left-column {
+			padding-left: 1.8rem;
+			margin-right: 2.5rem;
+			img {
+				height: 320px;
+				width: 275px;
+			}
+			.lawyer-title {
+				color: #00608a;
+				margin-bottom: 1rem;
+				h3 {
+					font-size: 1.5rem;
+					padding: 0.4rem 0;
+				}
+				small {
+					font-size: 1.1rem;
+				}
+			}
+			.extra-info {
+				color: #797c81;
+				font-size: 1rem;
+			}
+		}
+		.right-column {
+			padding-right: 1.8rem;
+			.lawyer-text {
+				p {
+					text-align: left;
+					margin-bottom: 2rem;
+				}
+				p:last-child {
+					margin-bottom: 0;
+				}
+				
+			}
+		}
+	}
+}
+
+@media(max-width: 768px) {
+	#lawyers-page {
+		.line {
+			width: 90%;
+			margin: 5rem auto;
+		}
+	}
+}
+
+@media(max-width: 600px) {
+	#lawyers-page {
+		.lawyer-box {
+			flex-direction: column;
+			max-width: 400px;
+			margin: auto;
+			padding: 0 2rem;
+			.left-column {
+				padding: 0;
+			}
+			.right-column {
+				padding: 0;
+				margin-top: 1rem;
+
+			}
+		}
+	}
+}

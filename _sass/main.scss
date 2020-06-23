@@ -1,0 +1,48 @@
+@import 'config';
+@import 'utilities';
+@import 'header';
+@import 'banners';
+@import 'home';
+@import 'lawyers';
+@import 'areas';
+@import 'contact';
+@import 'footer';
+
+
+// Fonts Dosis = geral, Garamond = big uppercase, Lovelo = links uppercase
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Dosis', sans-serif;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+p {
+	font-family: 'Circe';
+	color: #38393a;
+}
+
+span {
+	font-family: 'Circe';
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-family: Lovelo;
+	font-weight: 700px;
+	letter-spacing: 2px;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+}

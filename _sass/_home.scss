@@ -1,0 +1,50 @@
+#areas {
+	margin: 2rem 0 4rem 0;
+	text-align: center;
+	h2 {
+		color: #00608a;
+	}
+	.box-container {
+		max-width: 960px;
+		margin: 2rem auto 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		.box {
+			padding: 0 2rem;
+			text-align: center;
+			h3 {
+				padding: 0.5rem 0;
+				font-size: 1.5rem;
+				text-transform: uppercase;
+				color: #00608a;
+			}
+			p {
+				padding: 0.5rem;
+				font-size: 1.2rem;
+			}
+			.icon {
+				width: 3rem;
+			}
+		}
+	}
+	.buttons-container {
+		margin-top: 2rem;
+		a {
+			margin: 0 2rem;
+		}
+	}
+}
+
+
+@media(max-width: 768px) {
+	#areas {
+		.box-container {
+			flex-direction: column;
+			max-width: 500px;
+			.box {
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <script src="https://kit.fontawesome.com/615c348569.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+  	{% include header.html %}
+    {{ content}}
+    {% include footer.html %}
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

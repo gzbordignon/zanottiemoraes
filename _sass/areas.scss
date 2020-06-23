@@ -1,0 +1,52 @@
+#areas-page {
+	max-width: 960px;
+	min-height: 60vh;
+	margin: 4rem auto;
+	.box {
+		margin: 2rem;
+		font-family: 'Dosis';
+					&:hover {
+					background: #f9f9f9;
+					.box-header {
+						color: #003952;
+					}
+			}
+
+		.box-header {
+			border: 1px solid #ccc;
+			border-bottom: none;
+			padding: 1rem 2rem;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			color: #00608a;
+			h3 {
+				font-size: 1rem;
+				text-transform: uppercase;
+			}
+			.clickable-icon {
+				cursor: pointer;
+			}
+		}
+
+		.box-content {
+			border: 1px solid #ccc;
+			border-top: none;
+			padding: 0 2rem 2rem 2rem;
+			overflow: hidden;
+			max-height: 200px;
+			transition: all 0.5s ease-in-out;
+			p {
+				line-height: 1.5;
+				font-size: 1rem;
+				color: #3d3d3d;
+			}
+		}
+		.hide {
+			
+			pointer-events: none;
+			padding: 0 2rem;
+			max-height: 0;
+		}
+	}
+}
