@@ -1,11 +1,19 @@
 #header {
-	min-height: 5.5rem;
 	border-bottom: 2px solid #00608a;
+	background: #fff;
+	transition: all 0.5s ease-in-out;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	.navbar {
+		width: 90%;
+		margin: 0 auto;
+		height: 5.5rem;
 		background: #fff;
 		color: #38393a;
 		display: flex;
-		padding: 1rem 3rem;
+		align-items: center;
 		justify-content: space-between;
 		#logo {
 			font-family: 'Poiret One';
@@ -27,6 +35,22 @@
 					&.current {
 						color: #00608a;
 					}
+				}
+			}
+		}
+	}
+}
+
+.navbar-scroll {
+	.navbar {
+
+		#logo {
+			font-size: 1.5rem;
+		}
+		ul {
+			li {
+				a {
+					font-size: 0.7rem;
 				}
 			}
 		}
@@ -64,3 +88,5 @@
 		}
 	}
 }
+
+

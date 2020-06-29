@@ -1,9 +1,9 @@
 window.onscroll = () => {
   const nav = document.querySelector('#main-nav');
   if(this.scrollY <= 10) 
-  	nav.className = 'navbar';
+  	nav.classList.remove('navbar-scroll');
   else 
-  	nav.className = 'navbar scroll';
+  	nav.classList.add('navbar-scroll');
 };
 
 
