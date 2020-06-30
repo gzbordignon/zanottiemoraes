@@ -1,9 +1,6 @@
 #areas {
 	margin: 2rem 0 4rem 0;
 	text-align: center;
-	h2 {
-		color: #00608a;
-	}
 	.box-container {
 		max-width: 960px;
 		margin: 2rem auto 0 auto;
@@ -36,6 +33,54 @@
 	}
 }
 
+#about-us {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	.img-container {
+		img {
+			object-fit: cover;
+			height: 100%;
+			display: block;
+		}
+	}
+	.text-container {
+		display: flex;
+		background: #f4f4f4;
+		padding: 2rem;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		h2 {
+			
+			margin-bottom: 3rem;
+		}
+		p {
+			max-width: 30rem;
+			margin-bottom: 3rem;
+			text-align: center;
+		}
+		a {
+			background: #00608a;
+			color: #fff;
+			&:hover {
+				opacity: 0.9;
+			}
+		}
+	}
+}
+
+#contact-us {
+	text-align: center;
+	a {
+		margin: 3rem;
+		background: black;
+		color: #fff;
+		&:hover {
+			opacity: 0.9;
+		}
+	}
+}
+
 
 @media(max-width: 768px) {
 	#areas {
@@ -48,3 +93,20 @@
 		}
 	}
 }
+
+@media(max-width: 600px) {
+	#banner-home {
+		margin-top: 15rem;
+	}
+	#about-us {
+		display: grid;
+		grid-template-columns: 1fr;
+		.img-container {
+			img {
+				display: none;
+			}
+		}
+	}
+}
+
+
