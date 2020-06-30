@@ -186,25 +186,25 @@
 
 #contact-page .box-container .box p { padding: 0.2rem 0; font-size: 1.2rem; font-family: 'Dosis'; }
 
-#contact-page .form-container { padding: 2rem 0; color: #fff; background: black; }
+#contact-page .form-container { padding: 2rem 2rem; color: #fff; background: black; width: 30rem; }
 
 #contact-page .form-container h2 { text-align: center; text-transform: uppercase; font-size: 1.7rem; }
 
-#contact-page .form-container form { box-sizing: border-box; padding: 2rem 3rem; }
+#contact-page .form-container form { width: 80%; margin: 2rem auto; }
 
 #contact-page .form-container form .input-container { display: flex; flex-direction: column; margin-bottom: 1rem; }
 
 #contact-page .form-container form .input-container label { font-size: 1rem; text-transform: uppercase; font-weight: bold; margin-bottom: 0.5rem; }
 
-#contact-page .form-container form .input-container input, #contact-page .form-container form .input-container textarea { background: #f4f4f4; box-sizing: border-box; width: 25rem; padding: 0.5rem; font-size: 1rem; border-radius: 5px; }
+#contact-page .form-container form .input-container input, #contact-page .form-container form .input-container textarea { width: 100%; background: #f4f4f4; box-sizing: border-box; padding: 0.5rem; font-size: 1rem; border-radius: 5px; }
 
 #contact-page .form-container form .input-container textarea { height: 12rem; }
 
 #contact-page .form-container form .btn-form { box-sizing: border-box; width: 100%; padding: 0.8rem 0; font-size: 1rem; text-transform: uppercase; font-weight: bold; color: #fff; background: #003952; border: none; border-radius: 5px; }
 
-@media (max-width: 768px) { #contact-page { padding: 0 3rem; } #contact-page .columns { flex-direction: column; } #contact-page .box-container { margin-bottom: 3rem; flex-direction: column; justify-content: center; align-items: center; } }
+@media (max-width: 768px) { #contact-page { padding: 0 3rem; } #contact-page .columns { flex-direction: column; align-items: center; } #contact-page .box-container { margin-bottom: 3rem; flex-direction: column; justify-content: center; align-items: center; } }
 
-@media (max-width: 600px) { #contact-page { margin-top: 21rem; } }
+@media (max-width: 600px) { #contact-page { margin-top: 21rem; } #contact-page .form-container { width: 25rem; } }
 
 #main-footer { display: flex; flex-direction: column; background: black; padding: 2rem; color: #afafaf; }
 
