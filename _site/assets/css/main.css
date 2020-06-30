@@ -1,3 +1,5 @@
+@font-face { font-family: 'Poiret One Regular'; src: url("../fonts/PoiretOne-Regular.ttf"); }
+
 @font-face { font-family: Dosis; src: url("../fonts/Dosis.ttf"); }
 
 @font-face { font-family: Garamond; src: url("../fonts/Garamond.ttf"); }
@@ -42,7 +44,7 @@
 
 #header .navbar { width: 90%; margin: 0 auto; height: 5.5rem; background: #fff; color: #38393a; display: flex; align-items: center; justify-content: space-between; }
 
-#header .navbar #logo { font-family: 'Poiret One'; text-transform: uppercase; align-self: center; font-size: 2rem; font-weight: 700; }
+#header .navbar #logo { font-family: 'Poiret One Regular'; text-transform: uppercase; align-self: center; font-size: 2rem; font-weight: 700; }
 
 #header .navbar ul { display: flex; }
 
